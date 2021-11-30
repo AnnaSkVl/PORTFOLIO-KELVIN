@@ -1,0 +1,135 @@
+
+body{
+    margin: 0;
+    font-family: Play;
+}
+
+.header{
+   width: 100%;
+   background: #F1F1F1;
+   padding-top: 46px;
+}
+
+.header .container{
+    height: 100%;
+    position: relative;
+}
+
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    line-height: 1;
+}
+
+.logo::after{
+    position: absolute;
+    bottom: 14px;
+    right: -20px;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: darkorchid;
+}
+
+.nav{
+   height: 160px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+
+.nav-link:hover{
+    color: rgb(187, 17, 150);
+}
+
+.nav-link.active{
+    color: #606060;
+}
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 500px;
+    color: #000;
+    align-items: center;
+}
+.header-content h1{
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 1.5;
+    
+}
+
+.header-content p{
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+.header-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills{
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.skill{
+    max-width: 370px;
+   
+}
+
+.skill-img{
+    margin-bottom: 30px;
+}
+
+.skill-title{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.skill p{
+    font-size: 14px;
+    line-height: 2;
+}
